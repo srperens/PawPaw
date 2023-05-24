@@ -30,7 +30,7 @@ source setup/versions.sh
 
 # ---------------------------------------------------------------------------------------------------------------------
 
-jack2_repo="https://github.com/jackaudio/jack2.git"
+jack2_repo="https://github.com/srperens/jack2.git"
 
 if [ -n "${PAWPAW_JACK2_NO_CUSTOM_PREFIX}" ]; then
     jack2_prefix="${PAWPAW_PREFIX}"
